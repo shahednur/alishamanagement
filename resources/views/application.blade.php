@@ -9,6 +9,7 @@
 
     <title>Vuexy  - Vuejs, HTML & Laravel Admin Dashboard Template</title>
     <!-- Styles -->
+<<<<<<< HEAD
     <link rel="stylesheet" href="{{ secure_asset(mix('css/main.css')) }}">
     <link rel="stylesheet" href="{{ secure_asset(mix('css/iconfont.css')) }}">
     <link rel="stylesheet" href="{{ secure_asset(mix('css/material-icons/material-icons.css')) }}">
@@ -19,6 +20,18 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ secure_asset('images/logo/favicon.png') }}">
+=======
+    <link rel="stylesheet" href="{{ asset(mix('css/main.css')) }}">
+    <link rel="stylesheet" href="{{ asset(mix('css/iconfont.css')) }}">
+    <link rel="stylesheet" href="{{ asset(mix('css/material-icons/material-icons.css')) }}">
+    <link rel="stylesheet" href="{{ asset(mix('css/vuesax.css')) }}">
+    <link rel="stylesheet" href="{{ asset(mix('css/prism-tomorrow.css')) }}">
+    <link rel="stylesheet" href="{{ asset(mix('css/app.css')) }}">
+
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{ asset('images/logo/favicon.png') }}">
+>>>>>>> eeda0de376cb991ca6af5218a2f7723c666e23f2
   </head>
   <body>
     <noscript>
@@ -28,7 +41,11 @@
     </div>
 
     <!-- <script src="js/app.js"></script> -->
+<<<<<<< HEAD
     <script src="{{ secure_asset(mix('js/app.js')) }}"></script>
+=======
+    <script src="{{ asset(mix('js/app.js')) }}"></script>
+>>>>>>> eeda0de376cb991ca6af5218a2f7723c666e23f2
 
   </body>
 </html>
